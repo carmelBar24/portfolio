@@ -1,0 +1,18 @@
+.card{
+    width: 600px;
+    height: 200px;
+    margin-bottom: 40px;
+    font-size: 22px;
+    padding: 20px;
+    line-height:4.5vh;
+}
+.About{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 span{
+    color: #7bdff2;
+}

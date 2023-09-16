@@ -7,7 +7,7 @@ function Introduction() {
                 <span>I am Carmel Bar</span>
                 <button className={classes.button}>See My CV</button>
             </div>
-            <img src='/assets/images/logo.jpg'  height={"500px"} width={"350px"}/>
+            <img src='/assets/images/logo.jpg'  height={"500px"} width={"350px"} alt={"logo"}/>
         </div>
     );
 }
