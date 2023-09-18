@@ -1,0 +1,13 @@
+.Icon{
+    width: 15%;
+    border: 2px solid #f2b5d4;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+    margin: 10px;
+    transition: box-shadow 0.3s ease-out;
+}
+.Icon:hover{
+    box-shadow:4px 5px 4px 3px #f7d6e0;
+}
