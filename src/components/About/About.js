@@ -5,7 +5,7 @@ import {Card} from "@mui/material";
 function About() {
 
     return(
-        <div className={classes.About}>
+        <div className={classes.About} id={"About"}>
         <h2>LET ME <span>INTRODUCE</span> MYSELF</h2>
         <Card variant={"outlined"} className={classes.card}>
             👋 Hi, I'm Carmel Bar, a passionate programmer in search of my first role.

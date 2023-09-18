@@ -1,12 +1,14 @@
 import classes from "./Header.module.css"
+import { HashLink as Link} from "react-router-hash-link";
 function Header() {
     return(
+
         <nav className={classes.Header}>
             <span>Carmel Bar</span>
-            <ul >
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
+            <ul>
+                <li><Link to={"#About"}>About</Link></li>
+                <li><Link to={"#Projects"}>Projects</Link></li>
+                <li><Link to={"#Contact"}>Contact</Link></li>
             </ul>
         </nav>
     );

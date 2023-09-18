@@ -1,0 +1,16 @@
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f3faf9;
+}
+
+.Footer div{
+    flex: 1;
+    text-align: center;
+}
+
+.Icons{
+    margin: 5px;
+}

@@ -1,11 +1,13 @@
 .Header{
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
     flex-direction: row;
+    background-color: #f3faf9;
 }
 
-span{
+.Header span{
+    text-align: center;
     font-size: 35px;
     margin: 10px;
 }

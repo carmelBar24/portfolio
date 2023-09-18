@@ -13,6 +13,7 @@
     align-items: center;
 }
 
-h2 span{
+.About h2 span{
+    font-size: 30px;
     color: #7bdff2;
 }
