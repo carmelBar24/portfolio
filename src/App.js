@@ -6,6 +6,7 @@ import {BrowserRouter} from "react-router-dom";
 import Contact from "./components/Contact/Contact";
 import Skills from "./components/Skills/Skills";
 import Experience from "./components/Experience/Experience";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
      <Header/>
      <Introduction/>
      <About/>
+     <Projects/>
      <Skills/>
      <Experience/>
      <Contact/>

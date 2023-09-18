@@ -5,7 +5,7 @@ import {FaNode,FaHtml5,FaCss3Alt} from 'react-icons/fa';
 import TechIcon from "../../ui/Tech-Icon/Tech-Icon";
 function Skills(){
     return(
-        <div className={classes.Skills}>
+        <div className={classes.Skills} id={"Skills"}>
        <span>Skills</span>
          <div className={classes.Icons}>
              <TechIcon icon={<BiLogoFlutter/>}/>
