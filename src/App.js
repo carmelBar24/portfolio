@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer";
 import {BrowserRouter} from "react-router-dom";
 import Contact from "./components/Contact/Contact";
 import Skills from "./components/Skills/Skills";
+import Experience from "./components/Experience/Experience";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
      <Introduction/>
      <About/>
      <Skills/>
+     <Experience/>
      <Contact/>
      <Footer/>
      </BrowserRouter>

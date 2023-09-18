@@ -11,6 +11,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/material-ui": "^0.21.12",
+    "@vegadev/react-type-writer": "^1.2.3",
     "install": "^0.13.0",
     "npm": "^10.1.0",
     "react": "^18.2.0",
@@ -19,6 +20,7 @@
     "react-router-dom": "^6.16.0",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
+    "react-vertical-timeline-component": "^3.6.0",
     "styled-components": "^5.3.11",
     "web-vitals": "^2.1.4"
   },
