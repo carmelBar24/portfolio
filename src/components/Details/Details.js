@@ -1,5 +1,6 @@
 import {Modal} from "@mui/material";
 import classes from "./Details.module.css"
+import GitHub from '@mui/icons-material/GitHub';
 
 function Details({open,handleClose,project}) {
     return (
@@ -10,10 +11,13 @@ function Details({open,handleClose,project}) {
             aria-describedby="modal-modal-description"
         >
            <div className={classes.modal}>
+               <div className={classes.row}>
                <h1>{project.name}</h1>
+               <a href={project.link}><GitHub style={{width:"40px",height:"40px"}}/></a>
+               </div>
                <img src={project.image}/>
-               <p>{project.description}</p>
-               <a href={project.link}>Github</a>
+               <p style={{ whiteSpace: "pre-wrap"}}>{project.description}</p>
+               <ul>{project.tech.map((t)=><li key={project.id}>{t}</li>)}</ul>
            </div>
         </Modal>
     );

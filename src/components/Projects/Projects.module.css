@@ -13,3 +13,22 @@
     text-align: center;
     margin-bottom: 20px;
 }
+
+.Projects li{
+    background-color: #eff7f6;
+    box-shadow: none;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: white ;
+}

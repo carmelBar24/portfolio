@@ -4,7 +4,7 @@
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 500px;
+    width: 550px;
     border: 1px solid #7bdff2;
     boxShadow: 10px;
     background-color: #eff7f6;
@@ -17,4 +17,10 @@
 
 .modal p{
     line-height: 1.5rem;
+}
+
+.modal .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
