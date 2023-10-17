@@ -1,0 +1,15 @@
+.ProjectsCard{
+    display: flex;
+    justify-content:stretch;
+}
+.Projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Projects span{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}

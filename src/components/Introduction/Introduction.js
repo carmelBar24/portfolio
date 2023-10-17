@@ -6,6 +6,7 @@ function Introduction() {
             "Software Developer",
             "MERN Stack Developer",
             "Java Script Instructor",
+            "Flutter Developer"
         ],
         infiniteLoop: true,
         blinker: "_",
