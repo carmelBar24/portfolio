@@ -31,8 +31,7 @@ function Projects() {
         <div className={classes.Projects}>
             <span>Projects</span>
             <div className={classes.ProjectsCard} >
-                <div className={classes.list}>
-                    <List>
+                    <List className={classes.list}>
                         {projects.map((p)=><li key={p.id}>{<ProjectCard
                             key={p.id}
                             id={p.id}
@@ -42,7 +41,6 @@ function Projects() {
                             image={p.image}
                             description={p.description}/>}</li>)}
                     </List>
-                </div>
             </div>
         </div>
 

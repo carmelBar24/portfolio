@@ -31,7 +31,7 @@ li:hover{
 }
 
 @media (max-width: 768px) {
-    ul {
+    .Header ul {
         display: none; /* Hide the navigation links on small screens */
     }
     .Header span {

@@ -1,6 +1,5 @@
-.ProjectsCard{
+.list{
     display: flex;
-    justify-content:stretch;
 }
 .Projects{
     display: flex;
@@ -33,28 +32,20 @@
     background: white ;
 }
 
-.list{
-   overflow-x: auto;
-    width:90vw;
-}
 
 @media (max-width: 768px) {
     .Projects span {
         font-size: 30px;
     }
 
-    .ProjectsCard {
+    .list {
         flex-direction: column;
         justify-content: center;
-    }
-
-    .list {
         width: 100%;
-        background-color: red;
     }
 
     .Projects li {
-      color: #f2b5d4;
+      color:#eff7f6;
     }
 
 }
