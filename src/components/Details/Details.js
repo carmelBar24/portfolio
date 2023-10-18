@@ -17,7 +17,7 @@ function Details({open,handleClose,project}) {
                </div>
                <img src={project.image}/>
                <p style={{ whiteSpace: "pre-wrap"}}>{project.description}</p>
-               <ul>{project.tech.map((t)=><li key={project.id}>{t}</li>)}</ul>
+               {<ul>{project.tech.map((t)=><li key={project.id}>{t}</li>)}</ul>}
            </div>
         </Modal>
     );
