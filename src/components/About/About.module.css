@@ -17,3 +17,16 @@
     font-size: 35px;
     color: #7bdff2;
 }
+
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+        font-size: 18px;
+        padding: 10px;
+        line-height: 2.5vh;
+    }
+
+    .About h2 span {
+        font-size: 25px;
+    }
+}

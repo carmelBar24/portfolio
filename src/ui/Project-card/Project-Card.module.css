@@ -11,3 +11,15 @@
     height: 250px;
     width: 400px;
 }
+
+@media (max-width: 768px) {
+    .project {
+        margin: 2px;
+    }
+
+    .project img{
+        height: 100px;
+        width: 250px;
+
+    }
+}

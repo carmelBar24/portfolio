@@ -18,3 +18,12 @@
 .Icons{
     display: flex;
 }
+
+@media (max-width: 768px) {
+    .Contact {
+        font-size: 30px;
+    }
+    .Contact b{
+        text-align: center;
+    }
+}

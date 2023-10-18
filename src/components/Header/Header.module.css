@@ -29,3 +29,15 @@ li{
 li:hover{
     box-shadow: 10px 10px 5px #f7d6e0;
 }
+
+@media (max-width: 768px) {
+    ul {
+        display: none; /* Hide the navigation links on small screens */
+    }
+    .Header span {
+        font-size: 15px; /* Decrease font size for mobile */
+    }
+    li {
+        margin: 5px; /* Reduce margin for list items on mobile */
+    }
+}

@@ -25,3 +25,22 @@
     flex-direction: column;
     justify-content: center;
 }
+
+@media (max-width: 768px) {
+    .introduction {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .introduction span {
+        padding: 2px;
+        font-size: 30px;
+    }
+
+    .button {
+        height: auto;
+        width: 60%;
+        margin-left: 20%
+    }
+}

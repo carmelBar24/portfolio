@@ -14,3 +14,9 @@
 .Icons{
     margin: 5px;
 }
+
+@media (max-width: 768px) {
+    .Footer {
+        padding: 7px;
+    }
+}

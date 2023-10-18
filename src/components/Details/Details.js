@@ -15,7 +15,7 @@ function Details({open,handleClose,project}) {
                <h1>{project.name}</h1>
                <a href={project.link}><GitHub style={{width:"40px",height:"40px"}}/></a>
                </div>
-               <img src={project.image}/>
+               <img src={project.image} alt={"imageLogo"}/>
                <p style={{ whiteSpace: "pre-wrap"}}>{project.description}</p>
                {<ul>{project.tech.map((t)=><li key={project.id}>{t}</li>)}</ul>}
            </div>

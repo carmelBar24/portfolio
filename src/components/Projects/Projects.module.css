@@ -28,7 +28,33 @@
     border-radius: 2px;
 }
 
-/* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
     background: white ;
+}
+
+.list{
+   overflow-x: auto;
+    width:90vw;
+}
+
+@media (max-width: 768px) {
+    .Projects span {
+        font-size: 30px;
+    }
+
+    .ProjectsCard {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .list {
+        width: 100%;
+        background-color: red;
+    }
+
+    .Projects li {
+      color: #f2b5d4;
+    }
+
 }

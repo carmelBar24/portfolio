@@ -17,3 +17,13 @@
     text-align: center;
     margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+    .Skills {
+        font-size: 30px;
+        gap:2px
+    }
+    .Skills span{
+        margin-bottom: 10px;
+    }
+}
