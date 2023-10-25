@@ -31,7 +31,7 @@ function Projects() {
         <div className={classes.Projects}>
             <span>Projects</span>
             <div className={classes.ProjectsCard} >
-                    <List className={classes.list}>
+                    <List className={classes.list} >
                         {projects.map((p)=><li key={p.id}>{<ProjectCard
                             key={p.id}
                             id={p.id}

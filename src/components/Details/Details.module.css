@@ -25,6 +25,7 @@
     justify-content: space-around;
 }
 
+
 @media (max-width: 768px) {
     .modal {
         width: 90%;
@@ -37,5 +38,9 @@
 
     .modal p {
         font-size: 18px;
+    }
+
+    .modal ul{
+     padding: 10px;
     }
 }
